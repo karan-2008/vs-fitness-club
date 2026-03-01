@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Sitemap: https://vsfitnessclub.netlify.app/sitemap.xml

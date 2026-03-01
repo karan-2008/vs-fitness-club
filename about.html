@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | VS Fitness Club</title>
+    <meta name="description" content="Discover the story behind Nagpur's premium fitness destination.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar hidden">
+        <span>🔥 LIMITED TIME: 50% OFF on All Memberships — Call Now: <a href="tel:9156615912"
+                class="text-white app-phone" style="text-decoration:none">9156615912</a></span>
+        <button class="announcement-close" aria-label="Dismiss">&times;</button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">
+            <img src="assets/images/logo.png" alt="VS Fitness Logo"
+                onerror="this.src='https://via.placeholder.com/50x50/C0182A/FFFFFF?text=VS'">
+            <span>VS FITNESS CLUB</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="contact.html" class="btn btn-primary d-none d-md-flex">JOIN NOW</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay">
+        <div class="nav-links d-flex">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="btn btn-primary mt-4">JOIN NOW</a>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <header class="subhero" style="background-image: url('assets/images/Team.png');">
+        <div class="subhero-content reveal fade-up">
+            <div class="section-tag" style="border:none; padding:0; font-size:1rem; margin-bottom:10px;">ABOUT</div>
+            <h1 class="subhero-title bebas text-white">OUR STORY</h1>
+            <div class="breadcrumb">
+                <a href="index.html" class="text-white text-decoration-none" style="text-decoration:none">Home</a>
+                &rarr; About
+            </div>
+        </div>
+    </header>
+
+    <div class="section-divider"></div>
+
+    <!-- Our Story -->
+    <section class="section bg-black">
+        <div class="container d-flex flex-md-column gap-2 align-items-center">
+            <div style="flex: 1;" class="reveal fade-right">
+                <span class="section-tag">WHO WE ARE</span>
+                <h2 class="section-title">MORE THAN JUST<br><span>A GYM</span></h2>
+                <p class="section-subtitle mt-4" style="line-height: 1.8; color: var(--gray-light);">
+                    VS Fitness Club was born from a passion for fitness and a vision to bring luxury wellness to Nagpur.
+                    Located at VS Building in Dharampeth, we offer a world-class training environment where strength
+                    meets luxury.
+                    <br><br>
+                    Our mission is to empower every member to become their strongest self — physically and mentally.
+                </p>
+            </div>
+            <div style="flex: 1;" class="reveal fade-left delay-2">
+                <img src="assets/images/equipments (1).png" alt="Gym Interior"
+                    style="width: 100%; border: 4px solid var(--red); border-radius: 2px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section style="background-color: var(--red); padding: 60px 0;">
+        <div class="container reveal fade-up">
+            <div class="d-flex justify-content-between text-center" style="gap:20px; flex-wrap:wrap;">
+                <div style="flex:1;">
+                    <strong class="bebas" style="font-size:3rem; line-height:1; display:block;">500+</strong>
+                    <span class="oswald"
+                        style="text-transform:uppercase; letter-spacing:0.1em; font-size:0.9rem;">Members</span>
+                </div>
+                <div style="flex:1;">
+                    <strong class="bebas" style="font-size:3rem; line-height:1; display:block;">10+</strong>
+                    <span class="oswald"
+                        style="text-transform:uppercase; letter-spacing:0.1em; font-size:0.9rem;">Trainers</span>
+                </div>
+                <div style="flex:1;">
+                    <strong class="bebas" style="font-size:3rem; line-height:1; display:block;">5000</strong>
+                    <span class="oswald" style="text-transform:uppercase; letter-spacing:0.1em; font-size:0.9rem;">Sq.ft
+                        Area</span>
+                </div>
+                <div style="flex:1;">
+                    <strong class="bebas" style="font-size:3rem; line-height:1; display:block;">4.8★</strong>
+                    <span class="oswald"
+                        style="text-transform:uppercase; letter-spacing:0.1em; font-size:0.9rem;">Google Rating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="section bg-dark">
+        <div class="container text-center reveal fade-up">
+            <span class="section-tag">AMENITIES</span>
+            <h2 class="section-title">OUR <span>FACILITIES</span></h2>
+        </div>
+
+        <div class="container reveal fade-up delay-2" style="margin-top:50px;">
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                <div class="card text-center" style="padding: 30px;">
+                    <div style="font-size:3rem; margin-bottom:15px;">🏋️</div>
+                    <h4 class="oswald">Premium Equipment</h4>
+                </div>
+                <div class="card text-center" style="padding: 30px;">
+                    <div style="font-size:3rem; margin-bottom:15px;">❄️</div>
+                    <h4 class="oswald">Ice Bath</h4>
+                </div>
+                <div class="card text-center" style="padding: 30px;">
+                    <div style="font-size:3rem; margin-bottom:15px;">🧖</div>
+                    <h4 class="oswald">Steam Room</h4>
+                </div>
+                <div class="card text-center" style="padding: 30px;">
+                    <div style="font-size:3rem; margin-bottom:15px;">☕</div>
+                    <h4 class="oswald">Rooftop Café</h4>
+                </div>
+                <div class="card text-center" style="padding: 30px;">
+                    <div style="font-size:3rem; margin-bottom:15px;">❄️</div>
+                    <h4 class="oswald">Full AC</h4>
+                </div>
+                <div class="card text-center" style="padding: 30px;">
+                    <div style="font-size:3rem; margin-bottom:15px;">👨‍🏫</div>
+                    <h4 class="oswald">Certified Trainers</h4>
+                </div>
+                <div class="card text-center" style="padding: 30px;">
+                    <div style="font-size:3rem; margin-bottom:15px;">🅿️</div>
+                    <h4 class="oswald">Parking</h4>
+                </div>
+                <div class="card text-center" style="padding: 30px;">
+                    <div style="font-size:3rem; margin-bottom:15px;">📶</div>
+                    <h4 class="oswald">Free WiFi</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Experts -->
+    <section class="section bg-black">
+        <div class="container text-center reveal fade-up">
+            <span class="section-tag">OUR EXPERTS</span>
+            <h2 class="section-title">MEET THE <span>TEAM</span></h2>
+        </div>
+
+        <div class="container mt-5 reveal fade-up delay-2" style="margin-top: 50px;">
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <!-- Trainer 1 -->
+                <div class="card" style="padding:0; overflow:hidden;">
+                    <img src="https://via.placeholder.com/400x500/111111/FFFFFF?text=Trainer+Photo" alt="Trainer 1"
+                        style="width:100%; height:350px; object-fit:cover; border-bottom: 3px solid var(--red);">
+                    <div style="padding: 25px;">
+                        <h3 class="oswald text-white" style="font-size:1.5rem; margin-bottom:5px;">Trainer Name</h3>
+                        <p
+                            style="color:var(--red); font-family:'Oswald', sans-serif; letter-spacing:0.1em; font-size:0.9rem; margin-bottom:15px;">
+                            HEAD COACH</p>
+                        <p style="color:var(--gray); font-size:0.95rem;">Specialization: Powerlifting & Strength
+                            Training.</p>
+                    </div>
+                </div>
+                <!-- Trainer 2 -->
+                <div class="card" style="padding:0; overflow:hidden;">
+                    <img src="https://via.placeholder.com/400x500/111111/FFFFFF?text=Trainer+Photo" alt="Trainer 2"
+                        style="width:100%; height:350px; object-fit:cover; border-bottom: 3px solid var(--red);">
+                    <div style="padding: 25px;">
+                        <h3 class="oswald text-white" style="font-size:1.5rem; margin-bottom:5px;">Trainer Name</h3>
+                        <p
+                            style="color:var(--red); font-family:'Oswald', sans-serif; letter-spacing:0.1em; font-size:0.9rem; margin-bottom:15px;">
+                            FITNESS EXPERT</p>
+                        <p style="color:var(--gray); font-size:0.95rem;">Specialization: Weight Loss & HIIT.</p>
+                    </div>
+                </div>
+                <!-- Trainer 3 -->
+                <div class="card" style="padding:0; overflow:hidden;">
+                    <img src="https://via.placeholder.com/400x500/111111/FFFFFF?text=Trainer+Photo" alt="Trainer 3"
+                        style="width:100%; height:350px; object-fit:cover; border-bottom: 3px solid var(--red);">
+                    <div style="padding: 25px;">
+                        <h3 class="oswald text-white" style="font-size:1.5rem; margin-bottom:5px;">Trainer Name</h3>
+                        <p
+                            style="color:var(--red); font-family:'Oswald', sans-serif; letter-spacing:0.1em; font-size:0.9rem; margin-bottom:15px;">
+                            PERSONAL COACH</p>
+                        <p style="color:var(--gray); font-size:0.95rem;">Specialization: Custom Diets & Bodybuilding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-0">
+        <div class="container reveal fade-up">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-brand" style="margin-bottom: 20px; display: flex;">
+                        <img src="assets/images/logo.png" alt="VS Fitness"
+                            onerror="this.src='https://via.placeholder.com/50x50/C0182A/FFFFFF?text=VS'">
+                        <span>VS FITNESS CLUB</span>
+                    </a>
+                    <p>Train where strength meets luxury.</p>
+                    <div class="footer-socials">
+                        <a href="https://www.instagram.com/vsfitnessclub_?igsh=YXhoNngxZmN5cW1p" target="_blank"
+                            aria-label="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/vsfitnessclub" target="_blank" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>QUICK LINKS</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>SERVICES</h4>
+                    <ul class="footer-links footer-services-list">
+                        <li><a>Strength Training</a></li>
+                        <li><a>Cardio Zone</a></li>
+                        <li><a>Group Classes</a></li>
+                        <li><a>Powerlifting</a></li>
+                        <li><a>Steam & Ice Bath</a></li>
+                        <li><a>Rooftop Café</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>CONTACT</h4>
+                    <ul class="footer-contact">
+                        <li>📍 <span class="app-address">VS Building, Giripeth, Nagpur</span></li>
+                        <li>📞 <span class="app-phone">9156615912</span></li>
+                        <li>📧 <span class="app-email">vsfitnessclub1@gmail.com</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom text-center">
+                <div>&copy; 2025 VS Fitness Club. All Rights Reserved.</div>
+                <div>#StrongerEveryDay</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="#" class="floating-btn chatbot-btn" aria-label="Chat with us">
+            <span class="tooltip">Chat with us</span>
+            <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" />
+            </svg>
+        </a>
+        <a href="https://wa.me/919156615912" target="_blank" class="floating-btn whatsapp-btn" aria-label="WhatsApp">
+            <span class="tooltip">WhatsApp us</span>
+            <svg width="28" height="28" fill="white" viewBox="0 0 24 24">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot-window">
+        <div class="chatbot-header">
+            <h4>💬 VS FITNESS BOT</h4>
+            <button class="chatbot-close">&times;</button>
+        </div>
+        <div class="chatbot-body"></div>
+        <div class="chatbot-input">
+            <input type="text" id="chatInput" placeholder="Type your question...">
+            <button id="chatSend">SEND</button>
+        </div>
+    </div>
+</body>
+
+</html>

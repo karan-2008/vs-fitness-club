@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | VS Fitness Club</title>
+    <meta name="description" content="Get in touch with VS Fitness Club, Nagpur.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar hidden">
+        <span>🔥 LIMITED TIME: 50% OFF on All Memberships — Call Now: <a href="tel:9156615912"
+                class="text-white app-phone" style="text-decoration:none">9156615912</a></span>
+        <button class="announcement-close" aria-label="Dismiss">&times;</button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">
+            <img src="assets/images/logo.png" alt="VS Fitness Logo"
+                onerror="this.src='https://via.placeholder.com/50x50/C0182A/FFFFFF?text=VS'">
+            <span>VS FITNESS CLUB</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="contact.html" class="btn btn-primary d-none d-md-flex">JOIN NOW</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay">
+        <div class="nav-links d-flex">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="contact.html" class="btn btn-primary mt-4">JOIN NOW</a>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <header class="subhero" style="background: linear-gradient(135deg, rgba(8,8,8,0.9), rgba(192,24,42,0.6));">
+        <div class="subhero-content reveal fade-up">
+            <div class="section-tag"
+                style="border:none; padding:0; font-size:1rem; margin-bottom:10px; color:var(--gold);">CONTACT</div>
+            <h1 class="subhero-title bebas text-white">GET IN <span class="text-red">TOUCH</span></h1>
+            <div class="breadcrumb">
+                <a href="index.html" class="text-white text-decoration-none" style="text-decoration:none">Home</a>
+                &rarr; Contact
+            </div>
+        </div>
+    </header>
+
+    <div class="section-divider"></div>
+
+    <!-- Contact Section -->
+    <section class="section bg-black border-bottom" style="border-bottom: 1px solid var(--border);">
+        <div class="container d-flex flex-md-column gap-2">
+            <!-- Details -->
+            <div style="flex: 1;" class="reveal fade-right">
+                <h2 class="oswald text-white mb-4" style="font-size:2rem; margin-bottom:30px;">REACH US ANYTIME</h2>
+
+                <div class="card mb-3" style="padding: 25px; margin-bottom:20px;">
+                    <h4 class="oswald text-white" style="font-size:1.3rem; margin-bottom:10px;">📞 CALL US</h4>
+                    <p class="app-phone text-red" style="font-size: 1.5rem; font-family:'Bebas Neue', sans-serif;">
+                        9156615912</p>
+                    <p class="text-gray" style="margin-bottom:15px; font-size:0.9rem;">Available during opening hours
+                    </p>
+                    <a href="tel:9156615912" class="btn btn-outline-red"
+                        style="padding: 8px 16px; font-size: 0.9rem;">CALL NOW</a>
+                </div>
+
+                <div class="card mb-3" style="padding: 25px; margin-bottom:20px;">
+                    <h4 class="oswald text-white" style="font-size:1.3rem; margin-bottom:10px;">📧 EMAIL US</h4>
+                    <p class="app-email text-white" style="font-size: 1.1rem;">vsfitnessclub1@gmail.com</p>
+                    <p class="text-gray" style="margin-bottom:15px; font-size:0.9rem;">We reply within 24 hours</p>
+                    <a href="mailto:vsfitnessclub1@gmail.com" class="btn btn-outline-red"
+                        style="padding: 8px 16px; font-size: 0.9rem;">SEND EMAIL</a>
+                </div>
+
+                <div class="card mb-3" style="padding: 25px; margin-bottom:30px;">
+                    <h4 class="oswald text-white" style="font-size:1.3rem; margin-bottom:10px;">📍 VISIT US</h4>
+                    <p class="app-address text-white" style="font-size: 1.1rem;">VS Building, Giripeth<br>Dharampeth,
+                        Nagpur</p>
+                    <p class="text-gray" style="margin-bottom:15px; font-size:0.9rem;">Drop by for a tour</p>
+                    <a href="https://maps.google.com/?q=VS+Building,+Giripeth,+Dharampeth,+Nagpur" target="_blank"
+                        class="btn btn-outline-red" style="padding: 8px 16px; font-size: 0.9rem;">GET DIRECTIONS</a>
+                </div>
+
+                <div style="display:flex; gap:15px;">
+                    <a href="https://www.instagram.com/vsfitnessclub_?igsh=YXhoNngxZmN5cW1p" target="_blank"
+                        class="btn btn-secondary"
+                        style="padding:10px; border-radius:50%; border-color:var(--red); color:var(--red);"><svg
+                            width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg></a>
+                    <a href="https://wa.me/919156615912" target="_blank" class="btn btn-secondary"
+                        style="padding:10px; border-radius:50%; border-color:var(--red); color:var(--red);"><svg
+                            width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                        </svg></a>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <div style="flex: 1;" class="reveal fade-left delay-2">
+                <div class="card" style="padding: 40px;">
+                    <h2 class="oswald text-white mb-4" style="font-size:2rem; margin-bottom:30px;">SEND A MESSAGE</h2>
+
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Full Name" required>
+                            <div class="error-msg">Please enter your full name</div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="phone" class="form-control" placeholder="Phone Number" required>
+                            <div class="error-msg">Please enter your phone number</div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="Email Address" required>
+                            <div class="error-msg">Please enter a valid email</div>
+                        </div>
+
+                        <div class="form-group">
+                            <select id="interest" class="form-control" required
+                                style="appearance:none; background-image: url('data:image/svg+xml,%3Csvg%20fill%3D%22white%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%20%2F%3E%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%20%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position-x: 97%; background-position-y: center;">
+                                <option value="" disabled selected>Interested In...</option>
+                                <option value="Monthly Plan">Monthly Plan</option>
+                                <option value="Quarterly Plan">Quarterly Plan</option>
+                                <option value="Annual Plan">Annual Plan</option>
+                                <option value="Personal Training">Personal Training</option>
+                                <option value="Group Classes">Group Classes</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+                            <div class="error-msg">Please enter a message</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">🔴 SEND MESSAGE
+                            &rarr;</button>
+                    </form>
+
+                    <div id="formSuccess" class="form-success">
+                        <h3 class="oswald mb-2" style="margin-bottom:10px;">Message Sent!</h3>
+                        <p>Thank you for reaching out. We'll get back to you shortly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Width Map -->
+    <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31436.558735595965!2d79.02641773223878!3d21.14363063527717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1b59c4bccd9%3A0x92c0108d9c72b357!2sVS%20Fitness%20Club!5e1!3m2!1sen!2sin!4v1772366338192!5m2!1sen!2sin"
+            width="100%" height="450" style="border:0; display:block;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-0">
+        <div class="container reveal fade-up">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-brand" style="margin-bottom: 20px; display: flex;">
+                        <img src="assets/images/logo.png" alt="VS Fitness"
+                            onerror="this.src='https://via.placeholder.com/50x50/C0182A/FFFFFF?text=VS'">
+                        <span>VS FITNESS CLUB</span>
+                    </a>
+                    <p>Train where strength meets luxury.</p>
+                    <div class="footer-socials">
+                        <a href="https://www.instagram.com/vsfitnessclub_?igsh=YXhoNngxZmN5cW1p" target="_blank"
+                            aria-label="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/vsfitnessclub" target="_blank" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>QUICK LINKS</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>SERVICES</h4>
+                    <ul class="footer-links footer-services-list">
+                        <li><a>Strength Training</a></li>
+                        <li><a>Cardio Zone</a></li>
+                        <li><a>Group Classes</a></li>
+                        <li><a>Powerlifting</a></li>
+                        <li><a>Steam & Ice Bath</a></li>
+                        <li><a>Rooftop Café</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>CONTACT</h4>
+                    <ul class="footer-contact">
+                        <li>📍 <span class="app-address">VS Building, Giripeth, Nagpur</span></li>
+                        <li>📞 <span class="app-phone">9156615912</span></li>
+                        <li>📧 <span class="app-email">vsfitnessclub1@gmail.com</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom text-center">
+                <div>&copy; 2025 VS Fitness Club. All Rights Reserved.</div>
+                <div>#StrongerEveryDay</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="#" class="floating-btn chatbot-btn" aria-label="Chat with us">
+            <span class="tooltip">Chat with us</span>
+            <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" />
+            </svg>
+        </a>
+        <a href="https://wa.me/919156615912" target="_blank" class="floating-btn whatsapp-btn" aria-label="WhatsApp">
+            <span class="tooltip">WhatsApp us</span>
+            <svg width="28" height="28" fill="white" viewBox="0 0 24 24">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot-window">
+        <div class="chatbot-header">
+            <h4>💬 VS FITNESS BOT</h4>
+            <button class="chatbot-close">&times;</button>
+        </div>
+        <div class="chatbot-body"></div>
+        <div class="chatbot-input">
+            <input type="text" id="chatInput" placeholder="Type your question...">
+            <button id="chatSend">SEND</button>
+        </div>
+    </div>
+</body>
+
+</html>

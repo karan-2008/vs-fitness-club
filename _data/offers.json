@@ -1,0 +1,35 @@
+{
+    "plans": [
+        {
+            "name": "Monthly VIP",
+            "price": "\u20b92500",
+            "duration": "1 Month",
+            "features": [
+                "All Equipment Access",
+                "Free WiFi",
+                "Steam Bath"
+            ]
+        },
+        {
+            "name": "Quarterly Pro",
+            "price": "\u20b96000",
+            "duration": "3 Months",
+            "features": [
+                "All Equipment Access",
+                "Free WiFi",
+                "Steam & Ice Bath",
+                "1 Diet Tracking Session"
+            ]
+        },
+        {
+            "name": "Annual Elite",
+            "price": "\u20b918000",
+            "duration": "12 Months",
+            "features": [
+                "All Perks Included",
+                "Free Guest Passes (x5)",
+                "Personal Locker"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,160 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: assets/images
+public_folder: assets/images
+
+collections:
+  - name: "settings"
+    label: "⚙️ Settings"
+    files:
+
+      # ─────────────────────────────
+      # HERO SECTION
+      # ─────────────────────────────
+      - name: "hero"
+        label: "🏠 Homepage Hero"
+        file: "_data/hero.json"
+        format: json
+        fields:
+          - label: "Main Heading"
+            name: "heading"
+            widget: "string"
+            hint: "Example: STRONGER EVERY DAY"
+
+          - label: "Sub Heading"
+            name: "subheading"
+            widget: "string"
+            hint: "Example: Elevate Your Fitness Experience"
+
+          - label: "Offer Badge Text"
+            name: "offer_text"
+            widget: "string"
+            hint: "Example: 50% OFF on All Memberships"
+
+          - label: "Show Offer Badge?"
+            name: "offer_active"
+            widget: "boolean"
+            default: true
+
+      # ─────────────────────────────
+      # CONTACT INFORMATION
+      # ─────────────────────────────
+      - name: "contact"
+        label: "📞 Contact Info"
+        file: "_data/contact.json"
+        format: json
+        fields:
+          - label: "Phone Number"
+            name: "phone"
+            widget: "string"
+            hint: "Example: 9156615912"
+
+          - label: "Email Address"
+            name: "email"
+            widget: "string"
+
+          - label: "Full Address"
+            name: "address"
+            widget: "text"
+
+          - label: "Instagram Handle"
+            name: "instagram"
+            widget: "string"
+            hint: "Example: @vsfitnessclub_"
+
+          - label: "WhatsApp Number"
+            name: "whatsapp"
+            widget: "string"
+            hint: "With country code. Example: 919156615912"
+
+          - label: "Opening Hours"
+            name: "hours"
+            widget: "list"
+            fields:
+              - label: "Day"
+                name: "day"
+                widget: "string"
+                hint: "Example: Monday - Saturday"
+              - label: "Time"
+                name: "time"
+                widget: "string"
+                hint: "Example: 5:00 AM - 11:00 PM"
+
+      # ─────────────────────────────
+      # ANNOUNCEMENT BAR
+      # ─────────────────────────────
+      - name: "announcement"
+        label: "📢 Announcement Bar"
+        file: "_data/announcement.json"
+        format: json
+        fields:
+          - label: "Show Announcement Bar?"
+            name: "active"
+            widget: "boolean"
+            default: true
+            hint: "Toggle to show or hide the red bar at top"
+
+          - label: "Announcement Message"
+            name: "text"
+            widget: "string"
+            hint: "Example: 🔥 LIMITED TIME: 50% OFF — Call: 9156615912"
+
+      # ─────────────────────────────
+      # MEMBERSHIP OFFERS
+      # ─────────────────────────────
+      - name: "offers"
+        label: "💰 Membership Plans"
+        file: "_data/offers.json"
+        format: json
+        fields:
+          - label: "Plans"
+            name: "plans"
+            widget: "list"
+            fields:
+              - label: "Plan Name"
+                name: "name"
+                widget: "string"
+                hint: "Example: Monthly, Quarterly, Annual"
+
+              - label: "Price (₹)"
+                name: "price"
+                widget: "string"
+                hint: "Example: ₹2,499 or Contact for Price"
+
+              - label: "Duration"
+                name: "duration"
+                widget: "string"
+                hint: "Example: 1 Month, 3 Months, 12 Months"
+
+              - label: "Features (one per line)"
+                name: "features"
+                widget: "text"
+                hint: "Each feature on a new line"
+
+              - label: "Highlight this plan?"
+                name: "featured"
+                widget: "boolean"
+                default: false
+                hint: "Adds a gold border to make it stand out"
+
+      # ─────────────────────────────
+      # GALLERY IMAGES
+      # ─────────────────────────────
+      - name: "gallery"
+        label: "📸 Gallery Photos"
+        file: "_data/gallery.json"
+        format: json
+        fields:
+          - label: "Photos"
+            name: "images"
+            widget: "list"
+            fields:
+              - label: "Upload Photo"
+                name: "src"
+                widget: "image"
+              - label: "Caption"
+                name: "caption"
+                widget: "string"
+                required: false
