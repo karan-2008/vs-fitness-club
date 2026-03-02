@@ -1265,7 +1265,7 @@ textarea.form-control {
     height: 65px;
   }
 
-  .nav-links,
+  .navbar .nav-links,
   .nav-right .btn {
     display: none;
   }
